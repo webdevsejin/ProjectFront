@@ -20,7 +20,7 @@ import BeachAccessIcon from '@mui/icons-material/BeachAccess';
 import Divider from '@mui/material/Divider';
 import Year from "react-live-clock";
 import Month from "react-live-clock";
-import Progress from "./Progress";
+
 
 
 
@@ -143,7 +143,6 @@ export default function SectionCard() {
     </List>
       </div>
     </Card>
-    <Progress/>
     </div>
   );
 }

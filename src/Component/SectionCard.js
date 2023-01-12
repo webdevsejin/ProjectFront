@@ -20,10 +20,10 @@ import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
 import Year from "react-live-clock";
 import Month from "react-live-clock";
-import Progress from "./Progress";
 import RightCard from './RightCard';
 import MainChart from './MainChart';
-
+import MainSelect from './MainSelect';
+import MainOption from './MainOption';
 
 
 const ExpandMore = styled((props) => {
@@ -147,12 +147,11 @@ export default function SectionCard() {
     </List>
       </div>
     </Card>
-    <Progress/>
-    <div className='RightCard'>
-      <RightCard/>
+    <div className='MainItem'>
+    <MainOption/>
+    <div className='MainItem1'>
+    <MainSelect/>
     </div>
-    <div>
-    <MainChart/>
     </div>
     </div>
   );
