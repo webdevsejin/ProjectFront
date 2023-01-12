@@ -8,10 +8,6 @@ export default function Section1() {
    <SectionCard/>
    <SectionCard1/>
    <SectionCard2/>
-
-   </>
-   
-  
+   </> 
   );
-
 }
