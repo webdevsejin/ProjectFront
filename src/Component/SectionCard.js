@@ -21,6 +21,7 @@ import Typography from '@mui/material/Typography';
 import Year from "react-live-clock";
 import Month from "react-live-clock";
 import Progress from "./Progress";
+import RightCard from './RightCard';
 
 
 
@@ -146,6 +147,9 @@ export default function SectionCard() {
       </div>
     </Card>
     <Progress/>
+    <div className='RightCard'>
+      <RightCard/>
+    </div>
     </div>
   );
 }

@@ -9,7 +9,7 @@ import InputBase from '@mui/material/InputBase';
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import { Link } from '@mui/material';
-
+import HeaderAvartar from './HeaderAvartar';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -88,12 +88,20 @@ export default function Section() {
               </Search>
               <div class="Login"><Link href="#" id='Login'>로그인</Link></div>
               <div class="SignIn"><Link href="#" id='SignIn'>회원가입</Link></div>
+              <Link href="#" id='SignIn'>
+              <div className='HeaderAvartar'>
+              <HeaderAvartar/>
+             </div>
+             </Link>
             </Toolbar>
+            
           </AppBar>
         </Box>
       </div>
-
+      
+      
     </div>
+    
 
   );
 }
