@@ -33,17 +33,13 @@
     border-radius: 5px;
 }
 
-.HeaderAvartar{
-  
-}
-
 .Login{
     margin-right: 20px;
     background-color: blanchedalmond;
     font-size: 20px;
 }
 .SignIn{
-    margin-right: 15px;
+    margin-right: 10px;
     background-color: blanchedalmond;
     font-size: 20px;
 }

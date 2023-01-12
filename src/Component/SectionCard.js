@@ -22,6 +22,7 @@ import Year from "react-live-clock";
 import Month from "react-live-clock";
 import Progress from "./Progress";
 import RightCard from './RightCard';
+import MainChart from './MainChart';
 
 
 
@@ -149,6 +150,9 @@ export default function SectionCard() {
     <Progress/>
     <div className='RightCard'>
       <RightCard/>
+    </div>
+    <div>
+    <MainChart/>
     </div>
     </div>
   );

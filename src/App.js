@@ -12,7 +12,7 @@ import Progress from './Component/Progress';
 import MainAlert from './Component/MainAlert';
 import RightCard from './Component/RightCard';
 import HeaderAvartar from'./Component/HeaderAvartar';
-
+import MainChart from './Component/MainChart';
 
 export default function App() {
   const  [id, setId] = useState('');
@@ -30,6 +30,7 @@ export default function App() {
         <Route exact path='/MainAlert' element={<MainAlert/>}/>
         <Route exact path='/RightCard' element={<RightCard/>}/>
         <Route exact path='/HeaderAvartar' element={<HeaderAvartar/>}/>
+        <Route exact path='/MainChart' element={<MainChart/>}/>
       </Routes>
     </div>
   );
