@@ -94,7 +94,6 @@ export default function Section() {
              </div>
              </Link>
             </Toolbar>
-
           </AppBar>
         </Box>
       </div>

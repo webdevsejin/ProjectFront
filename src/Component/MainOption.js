@@ -64,6 +64,7 @@ export default function MainOption() {
           textColor="inherit"
           variant="fullWidth"
           aria-label="full width tabs example"
+          
         >
           <Tab label="Item One" {...a11yProps(0)} />
           <Tab label="Item Two" {...a11yProps(1)} />
